@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest list Manager</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+        <section class="Guests" id="GuestContainer">
+            <h2>Guest List</h2>
+            <form class="guest-form">
+                <label for="guestName">Guest Name:</label>
+                <input type="text" id="guestName" name="guestName" placeholder="Enter guest name">
+                <button type="submit" id="addGuest">Add Guest</button>
+            </form>
+            <ol id="guestList" class="guest-list">
+                <!-- Guests Names will be dynamically added here -->
+            </ol>
+        </section>
+
+</body>
+<script src="./src/index.js"></script>
+</html>
