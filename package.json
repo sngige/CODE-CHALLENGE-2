@@ -1,15 +1,15 @@
 {
-  "name": "code-challenge-3",
+  "name": "code-challenge-2",
   "version": "1.0.0",
-  "description": "A basic blog management application that allows you to create, view, and delete blog posts.",
+  "description": "A simple web application to manage your guest list for events.",
   "scripts": {
     "start": "json-server --host 0.0.0.0 --watch db.json --port $PORT"
   },
-  "keywords": ["blog", "json-server"],
+  "keywords": ["guests", "json-server"],
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sngige/Code-Challenge-3.git"
+    "url": "https://github.com/sngige/CODE-CHALLENGE-2.git"
   },
   "dependencies": {
     "json-server": "^0.17.3"

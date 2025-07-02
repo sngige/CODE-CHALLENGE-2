@@ -1,0 +1,14 @@
+{
+  "guests": [
+    {
+      "id": "7fcf",
+      "name": "Oliver",
+      "attending": true
+    },
+    {
+      "id": "2fc5",
+      "name": "Oliver",
+      "attending": true
+    }
+  ]
+}
