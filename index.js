@@ -3,7 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const guestNameInput = document.getElementById('guestName');
   const guestList = document.getElementById('guestList');
   
-  const API = 'http://localhost:3000/guests'
+  const API = 'https://code-challenge-2-4r3h.onrender.com/guests';
+
   const maxGuests = 10;
 
   fetch(API)
